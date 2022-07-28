@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "journal_feed"
+version = "0.1.0"
+description = ""
+authors = ["Mike <mfromano@pm.me>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pyppeteer = "^1.0.2"
+beautifulsoup4 = "^4.11.1"
+asyncio = "^3.4.3"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
